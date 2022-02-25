@@ -2,6 +2,13 @@
 
 ### Week 1 合约编写和部署
 
+**合约：WavePortal**
+
+1. 可以调用```wave```向合约打招呼
+2. 打招呼的人有50%的几率获得0.0001eth
+3. 30秒内只能打招呼一次
+4. 如果有人向合约打招呼，那么会通过```emit```通知Dapp更新数据
+
 Rinkeby合约地址：0x49ee02Bbf503892BE04145927c460765f69E0b43
 
 [Rinkeby官方地址](https://www.rinkeby.io/#explorer)
